@@ -33,4 +33,5 @@ class PersonCell: UICollectionViewCell {
             completion(data, response, error)
         }.resume()
     }
+    
 }

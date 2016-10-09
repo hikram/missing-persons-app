@@ -29,8 +29,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         collectionView.delegate = self
         collectionView.dataSource = self
     }
-
-
+    
     @IBAction func checkForMatch(_ sender: AnyObject) {
     }
     
