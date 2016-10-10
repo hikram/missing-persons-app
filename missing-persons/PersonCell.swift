@@ -28,8 +28,8 @@ class PersonCell: UICollectionViewCell {
             DispatchQueue.main.async {
                 guard let data = data , error == nil else { return }
                 self.personImg.image = UIImage(data: data)
-                //self.person.personImg = self.personImg.image
-                //self.person.downloadFaceID()
+                self.person.personImg = self.personImg.image
+                self.person.downloadFaceID()
             }
         }
     }
