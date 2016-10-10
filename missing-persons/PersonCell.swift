@@ -12,8 +12,13 @@ class PersonCell: UICollectionViewCell {
     
     @IBOutlet weak var personImg: UIImageView!
     
-    func configureCell(imgUrl: String) {
-        if let url = URL(string: imgUrl){
+    var person: Person!
+    
+    
+    
+    func configureCell(person: Person) {
+        //self.person = person
+        if let url = URL(string: "\(baseURL)\(person.personImgURL!)"){
             downloadImg(url: url)
         }
     }
@@ -23,6 +28,8 @@ class PersonCell: UICollectionViewCell {
             DispatchQueue.main.async {
                 guard let data = data , error == nil else { return }
                 self.personImg.image = UIImage(data: data)
+                //self.person.personImg = self.personImg.image
+                //self.person.downloadFaceID()
             }
         }
     }

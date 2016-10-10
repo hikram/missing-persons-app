@@ -13,6 +13,8 @@
 		54B6E7D91DA95C1B00871248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B6E7D81DA95C1B00871248 /* Assets.xcassets */; };
 		54B6E7DC1DA95C1B00871248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B6E7DA1DA95C1B00871248 /* LaunchScreen.storyboard */; };
 		54DD2A731DAA5978008097B7 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD2A721DAA5978008097B7 /* PersonCell.swift */; };
+		54DD2A781DAAB5E5008097B7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD2A771DAAB5E5008097B7 /* Person.swift */; };
+		54DD2A7A1DAAB738008097B7 /* FaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD2A791DAAB738008097B7 /* FaceService.swift */; };
 		CBF28F2F850AB015444446B8 /* Pods_missing_persons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCD171F5A6254D61A5C9059 /* Pods_missing_persons.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		54B6E7DD1DA95C1B00871248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54DD2A721DAA5978008097B7 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 		54DD2A741DAA99CD008097B7 /* missing-persons-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "missing-persons-Bridging-Header.h"; sourceTree = "<group>"; };
+		54DD2A771DAAB5E5008097B7 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		54DD2A791DAAB738008097B7 /* FaceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceService.swift; sourceTree = "<group>"; };
 		5D073E9983B37673C61B89DB /* Pods-missing-persons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-missing-persons.debug.xcconfig"; path = "Pods/Target Support Files/Pods-missing-persons/Pods-missing-persons.debug.xcconfig"; sourceTree = "<group>"; };
 		EDCD171F5A6254D61A5C9059 /* Pods_missing_persons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_missing_persons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -72,6 +76,8 @@
 				54B6E7DA1DA95C1B00871248 /* LaunchScreen.storyboard */,
 				54B6E7DD1DA95C1B00871248 /* Info.plist */,
 				54DD2A741DAA99CD008097B7 /* missing-persons-Bridging-Header.h */,
+				54DD2A771DAAB5E5008097B7 /* Person.swift */,
+				54DD2A791DAAB738008097B7 /* FaceService.swift */,
 			);
 			path = "missing-persons";
 			sourceTree = "<group>";
@@ -218,8 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54DD2A7A1DAAB738008097B7 /* FaceService.swift in Sources */,
 				54DD2A731DAA5978008097B7 /* PersonCell.swift in Sources */,
 				54B6E7D41DA95C1B00871248 /* ViewController.swift in Sources */,
+				54DD2A781DAAB5E5008097B7 /* Person.swift in Sources */,
 				54B6E7D21DA95C1B00871248 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
